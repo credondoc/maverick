@@ -1,0 +1,20 @@
+<mat-accordion>
+
+    <mat-expansion-panel class="red" *ngFor="let item of list">
+        <mat-expansion-panel-header>
+            <h1>{{ item.name }}</h1>
+        </mat-expansion-panel-header>
+
+        <table class="table">
+            <tr *ngFor="let value of item.items">
+                <td>
+                    <h3>{{ value.name }}</h3>
+                </td>
+                <td>{{ value.desciption }}</td>
+                <td>{{ value.price }}€</td>
+            </tr>
+        </table>
+
+    </mat-expansion-panel>
+
+</mat-accordion>
