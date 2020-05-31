@@ -24,14 +24,10 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.red {
-    background-color: rgb(255, 0, 0);
+.text-maverick {
+    color: #54A254;
 }
 
-.red:active {
-    background-color: rgb(255, 0, 0);
-}
-
-.red:focus {
-    background-color: rgb(255, 0, 0);
+.bg-maverick {
+    background-color: #54A254;
 }

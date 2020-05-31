@@ -1,6 +1,6 @@
 <mat-accordion>
 
-    <mat-expansion-panel class="red" *ngFor="let item of list">
+    <mat-expansion-panel class="black text-maverick" *ngFor="let item of list">
         <mat-expansion-panel-header>
             <h1>{{ item.name }}</h1>
         </mat-expansion-panel-header>
@@ -11,7 +11,9 @@
                     <h3>{{ value.name }}</h3>
                 </td>
                 <td>{{ value.desciption }}</td>
-                <td>{{ value.price }}€</td>
+                <td>
+                    <h3>{{ value.price }}€</h3>
+                </td>
             </tr>
         </table>
 
